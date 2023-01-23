@@ -38,7 +38,11 @@
 //   }
 // }
 
-const greet = function () {
-  console.log("Welcome");
-};
-greet();
+for (let i = 8; i < 17; i += 1) {
+  if (i % 3 === 0) {
+    number = i;
+  }
+
+  return number;
+  // Change code above this line
+}
