@@ -38,11 +38,34 @@
 //   }
 // }
 
-for (let i = 8; i < 17; i += 1) {
-  if (i % 3 === 0) {
-    number = i;
-  }
+// for (let i = 8; i < 17; i += 1) {
+//   if (i % 3 === 0) {
+//     number = i;
+//   }
 
-  return number;
-  // Change code above this line
-}
+//   return number;
+//   // Change code above this line
+// }
+
+// const animal = {
+//   legs: 4,
+// };
+// const dog = Object.create(animal);
+// dog.name = "Манго";
+
+// console.log(dog); // {name: 'Манго'}
+// console.log(dog.name); // 'Манго'
+// console.log(dog.legs); // 4
+
+// Change code below this line
+console.log(3 > 2 > 1);
+//3. Напишіть фукцію calcTotalPrice(stones, stonesName),
+//яка приймає масив об'єктів і рядок з назвою каменю.
+//Функція обчислює і повертає загальну вартість каменів з таким іменем
+
+// const stones = [
+//   { name: 'emerald', price: 1300, quantity: 4 },
+//   { name: 'diamond', price: 2700, quantity: 6 },
+//   { name: 'sapphire', price: 400, quantity: 7 },
+//   { name: 'rubble', price: 150, quantity: 100 },
+// ]
