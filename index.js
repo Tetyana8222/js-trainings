@@ -350,13 +350,13 @@ const users = [
 // }
 // console.log(getUsersWithFriend(users, "Sharron Pace"));
 
-function getUsersWithFriend(array, friend) {
-  return array.reduce((acc, user) => {
-    if (user.friends.includes(friend)) {
-      acc.push(user);
-    }
-    return acc;
-  }, []);
-}
+// function getUsersWithFriend(array, friend) {
+//   return array.reduce((acc, user) => {
+//     if (user.friends.includes(friend)) {
+//       acc.push(user);
+//     }
+//     return acc;
+//   }, []);
+// }
 
-console.log(getUsersWithFriend(users, "Sharron Pace"));
+// console.log(getUsersWithFriend(users, "Sharron Pace"));
