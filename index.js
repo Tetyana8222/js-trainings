@@ -360,3 +360,5 @@ const users = [
 // }
 
 // console.log(getUsersWithFriend(users, "Sharron Pace"));
+
+// Change value of isSuccess variable to call resolve or reject
